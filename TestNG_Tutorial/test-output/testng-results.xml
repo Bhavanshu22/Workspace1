@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T00:28:07 IST" name="Default suite" finished-at="2024-04-10T00:28:07 IST" duration-ms="52">
+    <groups>
+    </groups>
+    <test started-at="2024-04-10T00:28:07 IST" name="Default test" finished-at="2024-04-10T00:28:07 IST" duration-ms="52">
+      <class name="com.test1.PS1">
+        <test-method is-config="true" signature="beforeRun()[pri:0, instance:com.test1.PS1@4c9f8c13]" started-at="2024-04-10T00:28:07 IST" name="beforeRun" finished-at="2024-04-10T00:28:07 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeRun -->
+        <test-method signature="TestRun()[pri:0, instance:com.test1.PS1@4c9f8c13]" started-at="2024-04-10T00:28:07 IST" name="TestRun" finished-at="2024-04-10T00:28:07 IST" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestRun -->
+        <test-method is-config="true" signature="afterRun()[pri:0, instance:com.test1.PS1@4c9f8c13]" started-at="2024-04-10T00:28:07 IST" name="afterRun" finished-at="2024-04-10T00:28:07 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterRun -->
+      </class> <!-- com.test1.PS1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

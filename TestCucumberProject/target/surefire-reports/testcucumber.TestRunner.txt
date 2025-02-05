@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: testcucumber.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 10.65 s <<< FAILURE! -- in testcucumber.TestRunner
+Login Page feature.Login Page invalid Scenario -- Time elapsed: 2.079 s <<< ERROR!
+io.cucumber.junit.UndefinedStepException: 
+The step 'I should not be able to login successfully' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I should not be able to login successfully")
+public void i_should_not_be_able_to_login_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="testcucumber.TestRunner" time="10.651" tests="4" errors="1" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\KrishnaKadam\eclipse-workspace\TestCucumberProject\target\test-classes;C:\Users\KrishnaKadam\eclipse-workspace\TestCucumberProject\target\classes;C:\Users\KrishnaKadam\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\KrishnaKadam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\gherkin\29.0.0\gherkin-29.0.0.jar;C:\Users\KrishnaKadam\.m2\repository\net\masterthought\cucumber-reporting\5.8.2\cucumber-reporting-5.8.2.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\KrishnaKadam\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\KrishnaKadam\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\KrishnaKadam\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\KrishnaKadam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\KrishnaKadam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\KrishnaKadam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\KrishnaKadam\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KrishnaKadam\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\KrishnaKadam\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Users\KrishnaKadam\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\KrishnaKadam\AppData\Local\Temp\surefire15092428421995535144\surefirebooter-20250119163502482_3.jar C:\Users\KrishnaKadam\AppData\Local\Temp\surefire15092428421995535144 2025-01-19T16-35-02_286-jvmRun1 surefire-20250119163502482_1tmp surefire_0-20250119163502482_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\KrishnaKadam\eclipse-workspace\TestCucumberProject\target\test-classes;C:\Users\KrishnaKadam\eclipse-workspace\TestCucumberProject\target\classes;C:\Users\KrishnaKadam\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\KrishnaKadam\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-java\7.20.1\cucumber-java-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-junit\7.20.1\cucumber-junit-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-core\7.20.1\cucumber-core-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-gherkin\7.20.1\cucumber-gherkin-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.20.1\cucumber-gherkin-messages-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\messages\24.1.0\messages-24.1.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\testng-xml-formatter\0.2.0\testng-xml-formatter-0.2.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\query\12.2.0\query-12.2.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\tag-expressions\6.1.0\tag-expressions-6.1.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-expressions\17.1.0\cucumber-expressions-17.1.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\datatable\7.20.1\datatable-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-plugin\7.20.1\cucumber-plugin-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\docstring\7.20.1\docstring-7.20.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\html-formatter\21.7.0\html-formatter-21.7.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\junit-xml-formatter\0.5.0\junit-xml-formatter-0.5.0.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\ci-environment\10.0.1\ci-environment-10.0.1.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\gherkin\29.0.0\gherkin-29.0.0.jar;C:\Users\KrishnaKadam\.m2\repository\net\masterthought\cucumber-reporting\5.8.2\cucumber-reporting-5.8.2.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.17.0\jackson-databind-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.17.0\jackson-annotations-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.17.0\jackson-core-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.17.0\jackson-datatype-jsr310-2.17.0.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\velocity\velocity-engine-core\2.3\velocity-engine-core-2.3.jar;C:\Users\KrishnaKadam\.m2\repository\joda-time\joda-time\2.12.7\joda-time-2.12.7.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-configuration2\2.10.1\commons-configuration2-2.10.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\KrishnaKadam\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-text\1.11.0\commons-text-1.11.0.jar;C:\Users\KrishnaKadam\.m2\repository\org\jsoup\jsoup\1.17.2\jsoup-1.17.2.jar;C:\Users\KrishnaKadam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\owasp-java-html-sanitizer\20240325.1\owasp-java-html-sanitizer-20240325.1.jar;C:\Users\KrishnaKadam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java8-shim\20240325.1\java8-shim-20240325.1.jar;C:\Users\KrishnaKadam\.m2\repository\com\googlecode\owasp-java-html-sanitizer\java10-shim\20240325.1\java10-shim-20240325.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\KrishnaKadam\.m2\repository\org\slf4j\jcl-over-slf4j\2.0.13\jcl-over-slf4j-2.0.13.jar;C:\Users\KrishnaKadam\.m2\repository\io\cucumber\cucumber-jvm-deps\1.0.6\cucumber-jvm-deps-1.0.6.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\KrishnaKadam\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\KrishnaKadam\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\KrishnaKadam\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\KrishnaKadam\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\KrishnaKadam\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\KrishnaKadam\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\KrishnaKadam\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\KrishnaKadam"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-01-16"/>
+    <property name="java.home" value="C:\Users\KrishnaKadam\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="style.color" value="always"/>
+    <property name="basedir" value="C:\Users\KrishnaKadam\eclipse-workspace\TestCucumberProject"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\KrishnaKadam\AppData\Local\Temp\surefire15092428421995535144\surefirebooter-20250119163502482_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.10+7"/>
+    <property name="user.name" value="KrishnaKadam"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-17.0.10+7"/>
+    <property name="localRepository" value="C:\Users\KrishnaKadam\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\KRISHN~1\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.10"/>
+    <property name="user.dir" value="C:\Users\KrishnaKadam\eclipse-workspace\TestCucumberProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\KrishnaKadam\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Users/KrishnaKadam/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin/server;C:/Users/KrishnaKadam/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.10.v20240120-1143/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Users\KrishnaKadam\eclipse-workspace\Git\cmd;C:\Users\KrishnaKadam\Desktop\Actex\apache-maven-3.9.9-bin\apache-maven-3.9.9\bin;C:\Users\KrishnaKadam\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\KrishnaKadam\AppData\Local\Programs\Python\Python312\;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\KrishnaKadam\AppData\Local\Microsoft\WindowsApps;;C:\Users\KrishnaKadam\Desktop;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="17.0.10+7"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="Login Page valid Scenario" classname="Login Page feature" time="2.585">
+    <system-out><![CDATA[
+@Regression @smoke @TestCaseNo:1
+Scenario: Login Page valid Scenario           &amp#27;[90m# src/test/java/testcucumber/Login.feature:26&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am the user of facebook application&amp#27;[0m &amp#27;[90m# testcucumber.LoginPage.I_am_the_user_of_facebook_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter user name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"abc@gmail.com"&amp#27;[0m   &amp#27;[90m# testcucumber.LoginPage.I_enter_user_name_as(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter Password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345"&amp#27;[0m             &amp#27;[90m# testcucumber.LoginPage.I_enter_Password_as(java.lang.String)&amp#27;[0m
+User logged in successfully
+  &amp#27;[32mThen &amp#27;[0m&amp#27;[32mI should be able to login successfully&amp#27;[0m &amp#27;[90m# testcucumber.LoginPage.I_should_be_able_to_login_successfully()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.204 (52183f9e99a61056f9b78535f53d256f1516f2a0-refs/branch-heads/6778_155@{#7}) on port 17505
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 17505.
+Jan 19, 2025 4:35:05 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Login Page invalid Scenario" classname="Login Page feature" time="2.079">
+    <error message="The step &apos;I should not be able to login successfully&apos; is undefined.&#10;You can implement this step using the snippet(s) below:&#10;&#10;@Then(&quot;I should not be able to login successfully&quot;)&#10;public void i_should_not_be_able_to_login_successfully() {&#10;    // Write code here that turns the phrase above into concrete actions&#10;    throw new io.cucumber.java.PendingException();&#10;}&#10;" type="io.cucumber.junit.UndefinedStepException"><![CDATA[io.cucumber.junit.UndefinedStepException: 
+The step 'I should not be able to login successfully' is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then("I should not be able to login successfully")
+public void i_should_not_be_able_to_login_successfully() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+]]></error>
+    <system-out><![CDATA[
+@Regression @TestCaseNo:2
+Scenario: Login Page invalid Scenario               &amp#27;[90m# src/test/java/testcucumber/Login.feature:32&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am the user of facebook application&amp#27;[0m       &amp#27;[90m# testcucumber.LoginPage.I_am_the_user_of_facebook_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter user name as &amp#27;[0m&amp#27;[32m&amp#27;[1m"invalid_abc@gmail.com"&amp#27;[0m &amp#27;[90m# testcucumber.LoginPage.I_enter_user_name_as(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter Password as &amp#27;[0m&amp#27;[32m&amp#27;[1m"12345"&amp#27;[0m                   &amp#27;[90m# testcucumber.LoginPage.I_enter_Password_as(java.lang.String)&amp#27;[0m
+  &amp#27;[33mThen &amp#27;[0m&amp#27;[33mI should not be able to login successfully&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.204 (52183f9e99a61056f9b78535f53d256f1516f2a0-refs/branch-heads/6778_155@{#7}) on port 61192
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 61192.
+Jan 19, 2025 4:35:07 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario Outline feature check #1" classname="Login Page feature" time="3.09">
+    <system-out><![CDATA[
+@Regression @smoke @TestCaseNo:3
+Scenario Outline: Scenario Outline feature check &amp#27;[90m# src/test/java/testcucumber/Login.feature:44&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am the user of facebook application&amp#27;[0m    &amp#27;[90m# testcucumber.LoginPage.I_am_the_user_of_facebook_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter the credUsername &amp#27;[0m&amp#27;[32m&amp#27;[1m"validUser1"&amp#27;[0m     &amp#27;[90m# testcucumber.LoginPage.I_enter_the_credUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the credPassword &amp#27;[0m&amp#27;[32m&amp#27;[1m"validPassword1"&amp#27;[0m  &amp#27;[90m# testcucumber.LoginPage.I_enter_the_credPassword(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.204 (52183f9e99a61056f9b78535f53d256f1516f2a0-refs/branch-heads/6778_155@{#7}) on port 57060
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 57060.
+Jan 19, 2025 4:35:09 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="Scenario Outline feature check #2" classname="Login Page feature" time="2.203">
+    <system-out><![CDATA[
+@Regression @smoke @TestCaseNo:3
+Scenario Outline: Scenario Outline feature check &amp#27;[90m# src/test/java/testcucumber/Login.feature:45&amp#27;[0m
+  &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mI am the user of facebook application&amp#27;[0m    &amp#27;[90m# testcucumber.LoginPage.I_am_the_user_of_facebook_application()&amp#27;[0m
+  &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mI enter the credUsername &amp#27;[0m&amp#27;[32m&amp#27;[1m"validUser1"&amp#27;[0m     &amp#27;[90m# testcucumber.LoginPage.I_enter_the_credUsername(java.lang.String)&amp#27;[0m
+  &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mI enter the credPassword &amp#27;[0m&amp#27;[32m&amp#27;[1m"validPassword2"&amp#27;[0m  &amp#27;[90m# testcucumber.LoginPage.I_enter_the_credPassword(java.lang.String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 131.0.6778.204 (52183f9e99a61056f9b78535f53d256f1516f2a0-refs/branch-heads/6778_155@{#7}) on port 61135
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully on port 61135.
+Jan 19, 2025 4:35:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

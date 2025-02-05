@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+	
+	<groups>
+		<run>
+			<include name= "Regression" />
+			<exclude name= "smoke" />	
+		</run>
+	</groups>
+	
+    <classes>
+      <class name="testNG.TestNG4_47"/>
+      <class name="testNG.TestNG3_47"/>
+      <class name="testNG.TestNG5_47"/>
+      <class name="testNG.TestNG2_46"/>
+      <class name="testNG.TestNG1_46"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
